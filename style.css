@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Karantina", cursive;
+  font-family: "Heebo", sans-serif;
   background-color: hsl(0, 0%, 100%);
   color: #000000;
 }
@@ -13,17 +13,15 @@ body {
   height: 100vh;
 }
 
-/* .colorbkg {
+.colorbkg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fb2576;
-  box-shadow: 0px 135px 54px rgba(0, 0, 0, 0.03),
-    0px 76px 46px rgba(0, 0, 0, 0.1), 0px 34px 34px rgba(0, 0, 0, 0.17),
-    0px 8px 19px rgba(0, 0, 0, 0.19), 0px 0px 0px rgba(0, 0, 0, 0.2);
   border-radius: 71px;
   padding: 40px 160px 70px 160px;
-} */
+  gap: 100px;
+  letter-spacing: -3px;
+}
 
 .title {
   font-size: 240px;
@@ -34,13 +32,14 @@ body {
   display: flex;
   font-size: 16rem;
   font-weight: 900;
+  gap: 73px;
 }
 
 .countdown > div {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  width: 216px;
+  width: 300px;
 }
 
 .countdown > div:not(:first-child) {

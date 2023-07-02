@@ -13,7 +13,7 @@ body {
   height: 100vh;
 }
 
-.colorbkg {
+/* .colorbkg {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +23,7 @@ body {
     0px 8px 19px rgba(0, 0, 0, 0.19), 0px 0px 0px rgba(0, 0, 0, 0.2);
   border-radius: 71px;
   padding: 40px 160px 70px 160px;
-}
+} */
 
 .title {
   font-size: 240px;
@@ -103,11 +103,4 @@ span.wifi-bold {
 
 span.wifi.bold {
   font-weight: 900;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* adjust this value based on your needs */
 }

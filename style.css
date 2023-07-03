@@ -56,13 +56,13 @@ body {
 body.day {
   background-color: #ffffff;
   color: #202328;
-  font-family: "Karantina", cursive;
+  font-family: "Heebo", sans-serif;
 }
 
 body.night {
   background-color: #020409;
   color: #e7edf2;
-  font-family: "Karantina", cursive;
+  font-family: "Heebo", sans-serif;
 }
 
 .colorbkg.day {

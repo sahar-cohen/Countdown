@@ -24,13 +24,13 @@ body {
 }
 
 .title {
-  font-size: 240px;
+  font-size: 200px;
   font-weight: 900;
 }
 
 .countdown {
   display: flex;
-  font-size: 16rem;
+  font-size: 13rem;
   font-weight: 900;
   gap: 73px;
 }
@@ -49,7 +49,7 @@ body {
 .countdown > div::before {
   content: attr(id);
   text-transform: capitalize;
-  font-size: 90px;
+  font-size: 70px;
   font-weight: 300;
 }
 

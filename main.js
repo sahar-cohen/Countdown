@@ -22,34 +22,34 @@ function updateCountdown() {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
-// Theme switching code
-// let isDay = true;
+Theme switching code
+let isDay = true;
 
-// function setWebsiteTheme() {
-//   const body = document.body;
-//   const colorbkg = document.querySelector(".colorbkg");
+function setWebsiteTheme() {
+  const body = document.body;
+  const colorbkg = document.querySelector(".colorbkg");
 
-//   // Remove previous theme classes
-//   body.classList.remove("day", "night");
-//   colorbkg.classList.remove("day", "night");
+  // Remove previous theme classes
+  body.classList.remove("day", "night");
+  colorbkg.classList.remove("day", "night");
 
-//   // Switch between day and night every 30 minutes
-//   if (isDay) {
-//     body.classList.add("night");
-//     colorbkg.classList.add("night");
-//     console.log("Switched to Night Theme"); // Debug message
-//   } else {
-//     body.classList.add("day");
-//     colorbkg.classList.add("day");
-//     console.log("Switched to Day Theme"); // Debug message
-//   }
+  // Switch between day and night every 30 minutes
+  if (isDay) {
+    body.classList.add("night");
+    colorbkg.classList.add("night");
+    console.log("Switched to Night Theme"); // Debug message
+  } else {
+    body.classList.add("day");
+    colorbkg.classList.add("day");
+    console.log("Switched to Day Theme"); // Debug message
+  }
 
-//   // Flip the isDay flag for the next run
-//   isDay = !isDay;
-// }
+  // Flip the isDay flag for the next run
+  isDay = !isDay;
+}
 
-// // Call the function once at the start to set the initial theme
-// setWebsiteTheme();
+// Call the function once at the start to set the initial theme
+setWebsiteTheme();
 
-// // Then call the function every 30 minutes to check and update the theme
-// setInterval(setWebsiteTheme, 1000 * 30 * 60); // 30 minutes
+// Then call the function every 30 minutes to check and update the theme
+setInterval(setWebsiteTheme, 1000 * 30 * 60); // 30 minutes

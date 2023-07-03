@@ -76,7 +76,7 @@ body.night {
 .wifi-container {
   position: absolute;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);

@@ -22,7 +22,7 @@ function updateCountdown() {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
-Theme switching code
+// Theme switching code
 let isDay = true;
 
 function setWebsiteTheme() {
